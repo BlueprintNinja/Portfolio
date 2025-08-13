@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ray Skinner - System Administrator | VCIX, CCNA, Azure AI Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .section-title {
+            position: relative;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 4px;
+            background-color: #4f46e5;
+            border-radius: 2px;
+        }
+        .cert-card {
+            background-color: white;
+            border-left: 5px solid #4f46e5;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">Ray Skinner</div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-300">About</a>
+                <a href="#experience" class="text-gray-600 hover:text-indigo-600 transition duration-300">Experience</a>
+                <a href="#enterprise-solutions" class="text-gray-600 hover:text-indigo-600 transition duration-300">Enterprise Solutions</a>
+                <a href="#explorations" class="text-gray-600 hover:text-indigo-600 transition duration-300">Explorations</a>
+                <a href="#skills" class="text-gray-600 hover:text-indigo-600 transition duration-300">Skills</a>
+                <a href="#certifications" class="text-gray-600 hover:text-indigo-600 transition duration-300">Certifications</a>
+                <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition duration-300">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#about" class="block py-2 text-gray-600 hover:text-indigo-600">About</a>
+            <a href="#experience" class="block py-2 text-gray-600 hover:text-indigo-600">Experience</a>
+            <a href="#enterprise-solutions" class="block py-2 text-gray-600 hover:text-indigo-600">Enterprise Solutions</a>
+            <a href="#explorations" class="block py-2 text-gray-600 hover:text-indigo-600">Explorations</a>
+            <a href="#skills" class="block py-2 text-gray-600 hover:text-indigo-600">Skills</a>
+            <a href="#certifications" class="block py-2 text-gray-600 hover:text-indigo-600">Certifications</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-indigo-600">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-white">
+        <div class="container mx-auto px-6 py-20 md:py-32 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">Ray Skinner</h1>
+            <p class="mt-4 text-xl md:text-2xl text-indigo-600 font-medium">System Administrator | VCIX | CCNA | Azure AI Engineer Associate</p>
+            <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-600">
+                Driving efficiency and innovation within the World Wide Technology Advanced Technology Center (ATC) through expert system administration and a passion for AI.
+            </p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold text-gray-900">About Me</h2>
+            <div class="mt-8 md:flex md:items-center md:gap-12">
+                <div class="md:w-1/3 flex justify-center">
+                    <img src="https://placehold.co/300x300/e0e7ff/4f46e5?text=Ray+S." alt="Ray Skinner" class="rounded-full shadow-lg w-64 h-64 md:w-72 md:h-72 object-cover">
+                </div>
+                <div class="md:w-2/3 mt-8 md:mt-0">
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        A proactive and results-driven System Administrator with over 6 years of progressive experience at World Wide Technology. My career is built on a strong foundation in system administration, quality assurance, and technical support, complemented by a passion for leveraging AI to solve real-world problems.
+                    </p>
+                    <p class="mt-4 text-lg text-gray-700 leading-relaxed">
+                        I am actively developing innovative solutions, including AI tools and automation, with a long-term goal of tackling complex technical challenges and exploring System Architecture roles. I thrive on enhancing ATC operations and driving efficiency through technology.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section id="experience" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold text-gray-900">Career Journey</h2>
+            <div class="relative mt-12">
+                <!-- Vertical Line -->
+                <div class="absolute left-2 top-0 w-0.5 h-full bg-gray-300"></div>
+
+                <!-- Timeline Item 1 -->
+                <div class="relative pl-10 mb-12">
+                    <!-- Dot -->
+                    <div class="absolute left-2 top-1 w-4 h-4 bg-indigo-600 rounded-full border-4 border-white" style="transform: translateX(-50%);"></div>
+                    <h3 class="text-xl font-bold text-indigo-700">System Administrator, ATC</h3>
+                    <p class="text-sm font-medium text-gray-500">World Wide Technology | 6+ years - Present</p>
+                    <ul class="mt-4 text-gray-600 list-disc list-outside ml-5 space-y-2">
+                        <li>Serve as the primary technical support contact for ATC engineers, resolving complex system and infrastructure issues to maintain high levels of user satisfaction.</li>
+                        <li>Ensure high uptime and reliability for WWT.com platform labs by performing rigorous QA testing on performance, security, and functionality before deployment.</li>
+                        <li>Enhance operational efficiency by developing and implementing innovative AI solutions and automation to reduce manual task processing time.</li>
+                        <li>Improve ATC onboarding and knowledge access by leading a complete overhaul of internal documentation, resulting in faster search times for critical information.</li>
+                    </ul>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="relative pl-10 mb-12">
+                    <!-- Dot -->
+                    <div class="absolute left-2 top-1 w-4 h-4 bg-gray-400 rounded-full border-4 border-white" style="transform: translateX(-50%);"></div>
+                    <h3 class="text-xl font-bold text-gray-800">Data Center Operations</h3>
+                    <p class="text-sm font-medium text-gray-500">World Wide Technology ATC | 2 years</p>
+                    <ul class="mt-4 text-gray-600 list-disc list-outside ml-5 space-y-2">
+                        <li>Managed and maintained the physical and virtual infrastructure of the ATC data center, ensuring high availability for critical systems and customer-facing labs.</li>
+                        <li>Responsible for racking, stacking, and cabling of server and network hardware, maintaining a pristine and organized data center environment.</li>
+                        <li>Responsible for data center operations administration including managing a windows imaging server and managing install/de-install working with cross-functional teams to ensure seamless integration</li>
+                    </ul>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="relative pl-10">
+                    <!-- Dot -->
+                    <div class="absolute left-2 top-1 w-4 h-4 bg-gray-400 rounded-full border-4 border-white" style="transform: translateX(-50%);"></div>
+                    <h3 class="text-xl font-bold text-gray-800">Wireless Technician</h3>
+                    <p class="text-sm font-medium text-gray-500">North American Integration Center | 4 years</p>
+                    <ul class="mt-4 text-gray-600 list-disc list-outside ml-5 space-y-2">
+                        <li>Specialized in the integration and configuration of large-scale AT&T networking equipment, ensuring projects met rigorous quality standards.</li>
+                        <li>Collaborated with cross-functional teams to execute complex network deployments on schedule.</li>
+                        <li>Performed detailed quality assurance checks to validate hardware and software configurations, minimizing post-deployment issues.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enterprise Solutions Section -->
+    <section id="enterprise-solutions" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold text-gray-900">Enterprise Solutions</h2>
+            <div class="grid md:grid-cols-2 gap-8 mt-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">CoEdit AI Grammar Check</h3>
+                    <p class="text-gray-600">Developed an AI tool integrated into the QA workflow for WWT.com lab documentation. It utilizes LLMs and embedding models from the AIPG at the ATC for grammar and spelling checks, and provides an editor interface for human review, enhancing quality across published labs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">ATC Docs Overhaul & AI Readiness</h3>
+                    <p class="text-gray-600">Led a comprehensive upgrade of the internal ATC Documentation site, focusing on usability, search, and performance. Implemented AI image captioning for accessibility and future LLM ingestion, creating a more robust knowledge base.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">ATC Docs Copilot</h3>
+                    <p class="text-gray-600">Developed an internal lab as a proof of concept to automatically generate tutorials from ATC documentation. An unexpected emergent capability was its ability to generate simple tools, such as a "Snake" game that provides documentation tips, demonstrating a significant improvement in knowledge access. <a href="https://www.wwt.com/lab/atc-docs-copilot" target="_blank" class="text-indigo-600 hover:underline">Explore the lab.</a></p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">Data Center Training Rack</h3>
+                    <p class="text-gray-600">Leveraging my VMware expertise, I built a physical data center rack from the ground up for hands-on training. This involved hard-cabled networking with redundancy, deploying Dell ESXi hosts, and integrating Cisco routers and switches into a complete vSphere environment.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="text-xl font-semibold text-indigo-700">Automated Firewall Rule Testing</h3>
+                        <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Active Project</span>
+                    </div>
+                    <p class="text-gray-600">Engineered an automated testing framework for a large-scale firewall migration in the ATC vCloud environment. This solution will validate thousands of firewall rules, ensuring a seamless and error-free transition while maintaining security and compliance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI & Gamification Explorations Section -->
+    <section id="explorations" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold text-gray-900">AI & Technical Explorations</h2>
+            <p class="mt-4 max-w-3xl mx-auto text-lg text-gray-600 text-center mb-12">A collection of projects and experiments exploring gamification, AI-driven development, and immersive learning.</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">Precision Agriculture Digital Twin</h3>
+                    <p class="text-gray-600">Developed a decision-support tool that translates environmental data into actionable intelligence. This digital twin integrates real-time weather data, soil characteristics, and agronomic models to provide hyper-local insights for optimizing irrigation, pest control, and daily fieldwork.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">Agribusiness & Economics Simulator</h3>
+                    <p class="text-gray-600">A strategic simulator based on deep research into agricultural economics and horticultural science. This application models the complex variables of managing a farm, challenging the user to make data-driven decisions on investments, technology adoption, and crop management to build a profitable and sustainable business.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">ATC vCloud AI Testbed</h3>
+                    <p class="text-gray-600">Established an AI testbed in the ATC's vCloud environment to validate CPU-only AI workflows, successfully running quantized LLMs up to 70B parameters and benchmarking them against GPU models from the AI Proving Ground.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">On-Premise AI Model Testbed</h3>
+                    <p class="text-gray-600">Utilized four Dell R720 servers to create a homelab for testing a wide range of local LLMs (1B-8B parameters) and agentic workflows, including advanced reasoning models.</p>
+                </div>
+                 <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">VCIX Certification Testbed</h3>
+                    <p class="text-gray-600">Constructed a comprehensive virtual lab in vCloud to prepare for the VCIX certification. The environment included nested vApps with multiple ESXi and vCenter versions, allowing for complex scenario testing.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">AI vApp Support Agent</h3>
+                    <p class="text-gray-600">A proof of concept AI agent designed to proactively monitor vApps and report issues. The concept for proactive, automated monitoring has been successfully proven through multiple internal demos.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">KubeQuest</h3>
+                    <p class="text-gray-600">Created a space-themed game with AI assistance to make learning Kubernetes interactive and fun, featuring missions, achievements, and hands-on practice with kubectl commands. <a href="https://github.com/CuttingEdge-GameSolutions/KubeQuest/" target="_blank" class="text-indigo-600 hover:underline">View on GitHub.</a></p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">Neon Network Breach</h3>
+                    <p class="text-gray-600">Developed a puzzle-hacker game with an AI-generated storyline, puzzles, and core mechanics, showcasing the power of collaborative human-AI creative development.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">Paradox Tournament</h3>
+                    <p class="text-gray-600">A complete third-person arena shooter published on itch.io after a two-year development cycle, demonstrating the ability to release a polished Unreal Engine game. <a href="https://blueprintninja.itch.io/paradoxtournament" target="_blank" class="text-indigo-600 hover:underline">Play it here.</a></p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">Unreal Engine AI Traffic System</h3>
+                    <p class="text-gray-600">An early exploration of AI programming in Unreal Engine to create a dynamic and responsive vehicle traffic system from the ground up. <a href="https://www.youtube.com/watch?v=5Og2E5zwa_4" target="_blank" class="text-indigo-600 hover:underline">See it in action.</a></p>
+                </div>
+                 <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">Lego Microgames with Custom AI</h3>
+                    <p class="text-gray-600">Developed several 3D platformers using Unity's Lego framework, enhancing the project by integrating custom AI for dynamic enemy behaviors not included in the base package. <a href="https://www.youtube.com/watch?v=jBwwOqhsqqw" target="_blank" class="text-indigo-600 hover:underline">Watch a demo.</a></p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">Early Game Development</h3>
+                    <p class="text-gray-600">My first explorations into game development, including "Mothership" with its simplistic AI and "Insane Offroad," which presented a significant challenge in developing vehicle AI. <a href="https://youtu.be/ISgJTW3EqAs" target="_blank" class="text-indigo-600 hover:underline">Watch the gameplay.</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold text-gray-900">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">AI & Development</h3>
+                    <p class="text-gray-600">Python (NumPy), LLMs (Llama 3), Prompt Engineering, API/JSON, Streamlit, GitHub Actions, React.js, HTML/CSS</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">Virtualization</h3>
+                    <p class="text-gray-600">VMware vSphere (VCIX/VCP), vCloud, Nested Virtualization, VM Management, High Availability</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">Game Development</h3>
+                    <p class="text-gray-600">Unreal Engine, Unity, C++, C#, AI Programming, Gameplay Mechanics, Publishing, Level Design</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">Networking</h3>
+                    <p class="text-gray-600">Cisco R&S (CCNA), TCP/IP, DNS, Routing & Switching, Network Cabling, Troubleshooting, nMap</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">OS & Core IT</h3>
+                    <p class="text-gray-600">Linux, Windows Server, Windows 11, Kubernetes, System Administration, QA, Technical Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title text-3xl font-bold text-gray-900">Certifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                <div class="cert-card p-4 shadow-sm rounded-md"><p class="font-semibold text-gray-700">VMware Certified Implementation Expert (VCIX-DCV)</p></div>
+                <div class="cert-card p-4 shadow-sm rounded-md"><p class="font-semibold text-gray-700">Microsoft Certified: Azure AI Engineer Associate</p></div>
+                <div class="cert-card p-4 shadow-sm rounded-md"><p class="font-semibold text-gray-700">VMware Certified Professional - DCV 2024 (VCP-DCV)</p></div>
+                <div class="cert-card p-4 shadow-sm rounded-md"><p class="font-semibold text-gray-700">Cisco Certified Network Associate (CCNA)</p></div>
+                <div class="cert-card p-4 shadow-sm rounded-md"><p class="font-semibold text-gray-700">Google Cloud Certified - Cloud Digital Leader</p></div>
+                <div class="cert-card p-4 shadow-sm rounded-md"><p class="font-semibold text-gray-700">Unreal Blueprint Ninja Master</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-indigo-700 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="section-title text-3xl font-bold">Let's Connect</h2>
+            <p class="mt-4 text-lg max-w-2xl mx-auto text-indigo-100">I'm passionate about leveraging technology to solve complex problems. Open to discussing new opportunities, collaborations, or insights into AI and IT systems.</p>
+            <div class="mt-10 flex flex-wrap justify-center items-center gap-4">
+                <a href="mailto:raymond.skinner@wwt.com" class="flex items-center space-x-2 bg-white text-indigo-600 font-bold py-3 px-6 rounded-full hover:bg-gray-100 transition-colors duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2" /></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                if (mobileMenu.contains(this) && !mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+
+                const targetElement = document.querySelector(this.getAttribute('href'));
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
